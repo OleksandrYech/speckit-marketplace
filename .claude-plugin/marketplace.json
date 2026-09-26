@@ -1,0 +1,10 @@
+{
+  "name": "circle-marketplace",
+  "description": "Personal Claude Code plugin marketplace",
+  "plugins": [
+    {
+      "name": "speckit",
+      "source": "./plugins/speckit"
+    }
+  ]
+}
