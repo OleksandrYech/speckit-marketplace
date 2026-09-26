@@ -1,10 +1,18 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "circle-marketplace",
+  "version": "1.0.0",
   "description": "Personal Claude Code plugin marketplace",
+  "owner": {
+    "name": "OleksandrYech"
+  },
   "plugins": [
     {
       "name": "speckit",
-      "source": "./plugins/speckit"
+      "description": "GitHub Spec Kit skills for Claude Code",
+      "version": "1.0.0",
+      "source": "./plugins/speckit",
+      "category": "development"
     }
   ]
 }
